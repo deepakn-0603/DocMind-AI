@@ -1,4 +1,4 @@
-# idp-etechtexas-rag
+# DocMind AI Intelligent 
 
 Intelligent Document Processing Pipeline with RAG and LangGraph Agents
 
