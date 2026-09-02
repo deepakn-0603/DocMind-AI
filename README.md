@@ -239,7 +239,7 @@ End-to-end ingestion pipeline: OCR, metadata extraction, embedding generation, a
 {
   "chunk_overlap": 50,
   "chunk_size": 512,
-  "dataset_name": "Bombay Highcourt Judgements",
+  "dataset_name": "Bangalore City",
   "drive_folder_id": "1ZT_FuaOCd6DmoAcOXbMhH2XmXCrLHovy",
   "force": false,
   "log_level": "INFO",
@@ -284,7 +284,7 @@ curl -X POST "http://localhost:8000/ingestion/pipeline" \
   -d '{
     "chunk_overlap": 50,
     "chunk_size": 512,
-    "dataset_name": "Bombay Highcourt Judgements",
+    "dataset_name": "Bangalore City",
     "drive_folder_id": "1ZT_FuaOCd6DmoAcOXbMhH2XmXCrLHovy",
     "force": false,
     "log_level": "INFO"
@@ -295,7 +295,7 @@ curl -X POST "http://localhost:8000/ingestion/pipeline" \
 ```json
 {
   "status": "success",
-  "dataset_name": "Bombay Highcourt Judgements",
+  "dataset_name": "Bangalore City",
   "files_processed": 10,
   "files_embedded": 10,
   "files_skipped": 0,
@@ -314,7 +314,7 @@ Execute the LangGraph chat workflow for Question Answering (OpenAI GPT-4o-mini) 
 ```json
 {
   "message": "Summarize the retention policy judgment.",
-  "dataset_name": "Bombay Highcourt Judgements"
+  "dataset_name": "Bangalore City"
 }
 ```
 
