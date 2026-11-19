@@ -453,7 +453,7 @@ The ingestion pipeline is designed to be idempotent:
 ### Project Structure
 
 ```
-idp-etechtexas-rag/
+Docmind-ai/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py              # FastAPI application entry point
