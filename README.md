@@ -663,6 +663,3 @@ See `requirements.txt` for complete list.
 - Ensure metadata values don't exceed Pinecone's size limits (very long strings are truncated to 1000 chars)
 - For full-document summarization, confirm `document_id` (preferred) or `source_file` metadata is present and that `EMBEDDING_DIMENSION` matches the index dimension so metadata-only queries succeed.
 
-### License
-
-[Add your license here]
